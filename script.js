@@ -44,7 +44,7 @@ select.forEach(function(sl) {
 
     rotate();
 
-    // set timeout for result
+    // set timeout for result & score
     setTimeout(() => {
       const imgCom = document.querySelector(".img-komputer");
       imgCom.setAttribute("src", "img/" + sCom + ".png");
